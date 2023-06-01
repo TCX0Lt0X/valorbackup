@@ -3,11 +3,28 @@
   "name": "Valor",
   "title": "Valor",
   "description": "The Valor system for FoundryVTT!",
-  "version": "0.23.0",
+  "version": "0.1.0",
   "manifestPlusVersion": "1.2.0",
   "compatibleCoreVersion": "0.8.6",
+  "compatibility": {
+    "minimum": "11.299",
+    "verified": "11"
+  },
   "templateVersion": 2,
-  "author": "Asacolips",
+  "authors": [
+    {
+      "name": "Daniel Letterman",
+      "url": "",
+      "discord": "TC X0 Lt 0X\n#5293",
+      "flags": {}
+    },
+    {
+      "name": "Gabe Williams",
+      "url": "",
+      "discord": "TheRedWizard\n#0365",
+      "flags": {}
+    }
+  ],
   "esmodules": ["module/valor.js"],
   "styles": ["css/valor.css"],
   "scripts": [],
@@ -19,10 +36,11 @@
       "path": "lang/en.json"
     }
   ],
-  "gridDistance": 5,
-  "gridUnits": "ft",
+  "gridDistance": 1,
+  "gridUnits": "sq",
   "primaryTokenAttribute": "health",
-  "secondaryTokenAttribute": "power",
+  "secondaryTokenAttribute": "stamina",
+  "tertiaryTokenAttribute": "valor",
   "url": "https://github.com/TCX0Lt0X/valor",
   "manifest": "https://raw.githubusercontent.com/TCX0Lt0X/valor/main/system.json",
   "download": "https://github.com/TCX0Lt0X/valor/archive/refs/heads/main.zip",
