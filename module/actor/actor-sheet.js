@@ -7,8 +7,8 @@ export class ValorActorSheet extends ActorSheet {
   /** @override */
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
-      classes: ["Valor", "sheet", "actor"],
-      template: "systems/Valor/templates/actor/actor-sheet.html",
+      classes: ["valor", "sheet", "actor"],
+      template: "systems/valor/templates/actor/actor-sheet.html",
       width: 600,
       height: 600,
       tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "description" }]

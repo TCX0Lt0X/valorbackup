@@ -1,14 +1,15 @@
 {
+  "id": "valor",
   "name": "Valor",
   "title": "Valor",
   "description": "The Valor system for FoundryVTT!",
-  "version": "1.1.0",
-  "minimumCoreVersion": "0.8.3",
+  "version": "0.23.0",
+  "manifestPlusVersion": "1.2.0",
   "compatibleCoreVersion": "0.8.6",
   "templateVersion": 2,
   "author": "Asacolips",
-  "esmodules": ["module/Valor.js"],
-  "styles": ["css/Valor.css"],
+  "esmodules": ["module/valor.js"],
+  "styles": ["css/valor.css"],
   "scripts": [],
   "packs": [],
   "languages": [
@@ -22,8 +23,8 @@
   "gridUnits": "ft",
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "power",
-  "url": "",
-  "manifest": "",
-  "download": "",
+  "url": "https://github.com/TCX0Lt0X/valor",
+  "manifest": "https://raw.githubusercontent.com/TCX0Lt0X/valor/main/system.json",
+  "download": "https://github.com/TCX0Lt0X/valor/archive/refs/heads/main.zip",
   "license": "LICENSE.txt"
 }
