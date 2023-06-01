@@ -114,12 +114,12 @@
   justify-content: space-between;
 }
 
-/* Styles limited to boilerplate sheets */
-.boilerplate .item-form {
+/* Styles limited to Valor sheets */
+.Valor .item-form {
   font-family: "Roboto", sans-serif;
 }
 
-.boilerplate .sheet-header {
+.Valor .sheet-header {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 210px;
   flex: 0 0 210px;
@@ -139,7 +139,7 @@
   margin-bottom: 10px;
 }
 
-.boilerplate .sheet-header .profile-img {
+.Valor .sheet-header .profile-img {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 100px;
   flex: 0 0 100px;
@@ -147,100 +147,100 @@
   margin-right: 10px;
 }
 
-.boilerplate .sheet-header .header-fields {
+.Valor .sheet-header .header-fields {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
 }
 
-.boilerplate .sheet-header h1.charname {
+.Valor .sheet-header h1.charname {
   height: 50px;
   padding: 0px;
   margin: 5px 0;
   border-bottom: 0;
 }
 
-.boilerplate .sheet-header h1.charname input {
+.Valor .sheet-header h1.charname input {
   width: 100%;
   height: 100%;
   margin: 0;
 }
 
-.boilerplate .sheet-tabs {
+.Valor .sheet-tabs {
   -webkit-box-flex: 0;
   -ms-flex: 0;
   flex: 0;
 }
 
-.boilerplate .sheet-body,
-.boilerplate .sheet-body .tab,
-.boilerplate .sheet-body .tab .editor {
+.Valor .sheet-body,
+.Valor .sheet-body .tab,
+.Valor .sheet-body .tab .editor {
   height: 100%;
 }
 
-.boilerplate .tox .tox-editor-container {
+.Valor .tox .tox-editor-container {
   background: #fff;
 }
 
-.boilerplate .tox .tox-edit-area {
+.Valor .tox .tox-edit-area {
   padding: 0 8px;
 }
 
-.boilerplate .resource-label {
+.Valor .resource-label {
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.boilerplate .tabs {
+.Valor .tabs {
   height: 40px;
   border-top: 1px solid #AAA;
   border-bottom: 1px solid #AAA;
 }
 
-.boilerplate .tabs .item {
+.Valor .tabs .item {
   line-height: 40px;
   font-weight: bold;
 }
 
-.boilerplate .tabs .item.active {
+.Valor .tabs .item.active {
   text-decoration: underline;
   text-shadow: none;
 }
 
-.boilerplate .items-list {
+.Valor .items-list {
   list-style: none;
   margin: 7px 0;
   padding: 0;
   overflow-y: auto;
 }
 
-.boilerplate .items-list .item-header {
+.Valor .items-list .item-header {
   font-weight: bold;
 }
 
-.boilerplate .items-list .item {
+.Valor .items-list .item {
   height: 30px;
   line-height: 24px;
   padding: 3px 0;
   border-bottom: 1px solid #BBB;
 }
 
-.boilerplate .items-list .item .item-image {
+.Valor .items-list .item .item-image {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 24px;
   flex: 0 0 24px;
   margin-right: 5px;
 }
 
-.boilerplate .items-list .item img {
+.Valor .items-list .item img {
   display: block;
 }
 
-.boilerplate .items-list .item-name {
+.Valor .items-list .item-name {
   margin: 0;
 }
 
-.boilerplate .items-list .item-controls {
+.Valor .items-list .item-controls {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 86px;
   flex: 0 0 86px;
